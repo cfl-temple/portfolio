@@ -4,7 +4,7 @@ category: staff
 title: Researcher Name
 image: researcher.png
 role: Lab Director
-permalink: 'team/bai'
+permalink: 'portfolio/team/bai'
 social:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/
