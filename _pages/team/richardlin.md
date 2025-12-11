@@ -11,7 +11,7 @@ social:
     linkedin: https://www.linkedin.com/in/richardlin05/
     google-scholar: https://scholar.google.fr/
     github: https://github.com/RichardLinEngineer
-    website:
+    website: https://richardlinengineer.github.io/Richard-Lin/index.html
     orcid: https://orcid.org/0000-0002-6036-5947
     research-gate: https://www.researchgate.net/
 education:
