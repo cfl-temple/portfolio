@@ -1,24 +1,22 @@
 ---
 layout: member
 category: student
-degree: bsee
+degree: bsece
 title: Richard Lin
 image: anway.jpg
 role: Undergraduate Student
 permalink: /team/richard-lin
 social:
     twitter: https://twitter.com/
-    linkedin: https://www.linkedin.com/
+    linkedin: https://www.linkedin.com/in/richardlin05/
     google-scholar: https://scholar.google.fr/
-    github: https://github.com/
+    github: https://github.com/RichardLinEngineer
     website:
     orcid: https://orcid.org/0000-0002-6036-5947
     research-gate: https://www.researchgate.net/
 education:
  - Education: 
-    -- BSEE at Temple University, 1996
-    -- MSEEE at Drexel University, 1998
-    -- PhD EE at Drexel University, 2001
+    -- BSECE at Temple University, 2024-2028
 ---
 
-Anway Bose is a PhD student in Electrical and Computer Engineering at Temple University. 
+Richard Lin is a undergraduate student in Electrical and Computer Engineering at Temple University. 
