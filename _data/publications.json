@@ -947,31 +947,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/15837688/items/NSAR9IXU",
-		"type": "paper-conference",
-		"container-title": "2014 International Conference on Collaboration Technologies and Systems (CTS)",
-		"page": "652–656",
-		"publisher": "IEEE",
-		"title": "A bdi agent-based approach for power restoration",
-		"author": [
-			{
-				"family": "Ren",
-				"given": "Qiangguo"
-			},
-			{
-				"family": "Bai",
-				"given": "Li"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2014"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/15837688/items/T38JFF2Y",
 		"type": "paper-conference",
 		"container-title": "2014 7th International Symposium on Resilient Control Systems (ISRCS)",
@@ -1068,45 +1043,6 @@
 			{
 				"family": "Wen",
 				"given": "Kuang-Yi"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2014"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/15837688/items/J97F9I76",
-		"type": "paper-conference",
-		"container-title": "Phytopathology",
-		"note": "issue: 3",
-		"page": "4–4",
-		"publisher": "AMER PHYTOPATHOLOGICAL SOC 3340 PILOT KNOB ROAD, ST PAUL, MN 55121 USA",
-		"title": "Molecular mechanisms of thifluzamide resistance in Rhizoctonia solani",
-		"volume": "104",
-		"author": [
-			{
-				"family": "Mu",
-				"given": "W"
-			},
-			{
-				"family": "Li",
-				"given": "B"
-			},
-			{
-				"family": "Chen",
-				"given": "C"
-			},
-			{
-				"family": "Liu",
-				"given": "X"
-			},
-			{
-				"family": "Hao",
-				"given": "J"
 			}
 		],
 		"issued": {
@@ -2012,53 +1948,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/15837688/items/P5RVREDQ",
-		"type": "article-journal",
-		"container-title": "Transactions of the Chinese Society of Agricultural Engineering",
-		"issue": "6",
-		"note": "publisher: Editorial Office of Transactions of the Chinese Society of Agricultural …",
-		"page": "176–181",
-		"title": "Cotton yield estimation based on hyperspectral remote sensing in arid region of China",
-		"volume": "27",
-		"author": [
-			{
-				"family": "Zhuang",
-				"given": "Li"
-			},
-			{
-				"family": "Wang",
-				"given": "Jin"
-			},
-			{
-				"family": "Bai",
-				"given": "Li"
-			},
-			{
-				"family": "Jiang",
-				"given": "Guiying"
-			},
-			{
-				"family": "Sun",
-				"given": "Shujiang"
-			},
-			{
-				"family": "Yang",
-				"given": "Peng"
-			},
-			{
-				"family": "Wang",
-				"given": "Shaoming"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2011"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/15837688/items/G6US8XF7",
 		"type": "paper-conference",
 		"container-title": "Proceedings of the 8th ACM conference on Creativity and cognition",
@@ -2629,29 +2518,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/15837688/items/8HUYP4V6",
-		"type": "article-journal",
-		"container-title": "Journal of Hunan Public Security College",
-		"title": "The Strategy and Legal Character of Temptation Investigation in Bribery Crime",
-		"author": [
-			{
-				"family": "BAI",
-				"given": "Li-na"
-			},
-			{
-				"family": "REN",
-				"given": "Qing"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2009"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/15837688/items/J8ILKKSF",
 		"type": "paper-conference",
 		"container-title": "2008 16th European Signal Processing Conference",
@@ -2948,35 +2814,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/15837688/items/UABYIITG",
-		"type": "article-journal",
-		"container-title": "Scientia Agricultura Sinica",
-		"issue": "8",
-		"title": "Study on hyperspectral remote sensing date of cotton in estimating yield of arid region in china",
-		"volume": "41",
-		"author": [
-			{
-				"family": "Li",
-				"given": "Bai"
-			},
-			{
-				"family": "Jin",
-				"given": "Wang"
-			},
-			{
-				"family": "Guiying",
-				"given": "Jiang"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2008"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/15837688/items/9D2AD9W5",
 		"type": "article-journal",
 		"container-title": "IEEE Transactions on Reliability",
@@ -3022,68 +2859,6 @@
 			{
 				"family": "Blasch",
 				"given": "Erik P"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2007"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/15837688/items/EXW3CERD",
-		"type": "article-journal",
-		"container-title": "INDUSTRIAL HEALTH AND OCCUPATIONAL DISEASES-BEIJING-",
-		"issue": "6",
-		"note": "publisher: ANSHAN IRON & STEEL CORP.",
-		"page": "370",
-		"title": "Clinical Case Analysis of Acute Severe Carbon Monoxide Poisoning",
-		"volume": "32",
-		"author": [
-			{
-				"family": "Li",
-				"given": "Y"
-			},
-			{
-				"family": "Jiang",
-				"given": "G"
-			},
-			{
-				"family": "Li",
-				"given": "B"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2007"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/15837688/items/K8J8L6DU",
-		"type": "article-journal",
-		"container-title": "Journal of Digestive Diseases",
-		"issue": "3",
-		"note": "publisher: Blackwell Publishing Asia Melbourne, Australia",
-		"page": "154–159",
-		"title": "Effects of inflammatory cytokines on the recurrence of liver cancer after an apparently curative operation",
-		"volume": "8",
-		"author": [
-			{
-				"family": "Bai",
-				"given": "Li"
-			},
-			{
-				"family": "Mao",
-				"given": "Gao Ping"
-			},
-			{
-				"family": "Cao",
-				"given": "Chuan Ping"
 			}
 		],
 		"issued": {
@@ -3349,37 +3124,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/15837688/items/DXAWGL4X",
-		"type": "article-journal",
-		"container-title": "JOURNAL-JILIN INSTITUTE OF CHEMICAL TECHNOLOGY",
-		"issue": "4",
-		"note": "publisher: THE EDITORIAL OFFICE OF JOURNAL OF JILLIN INSTITUTE OF CHEMICAL TECHNOLOGY",
-		"page": "28",
-		"title": "Membrane resistance analysis and pollution condition research in membrane bio-reactor",
-		"volume": "23",
-		"author": [
-			{
-				"family": "Bai",
-				"given": "L"
-			},
-			{
-				"family": "Liu",
-				"given": "Z"
-			},
-			{
-				"family": "Wu",
-				"given": "Y"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2006"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/15837688/items/ZAHLDPAL",
 		"type": "article-journal",
 		"container-title": "IEEE Transactions on Reliability",
@@ -3392,71 +3136,6 @@
 			{
 				"family": "Bai",
 				"given": "Li"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2005"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/15837688/items/26J5TKGB",
-		"type": "article-journal",
-		"container-title": "Chinese Journal of Digestive Diseases",
-		"issue": "2",
-		"note": "publisher: Blackwell Science Pty 550 Swanston Street (PO Box 378) Carlton South …",
-		"page": "93–97",
-		"title": "Effect of proapoptosis protein on hepatocarcinogenesis",
-		"volume": "6",
-		"author": [
-			{
-				"family": "Li",
-				"given": "Bai"
-			},
-			{
-				"family": "CAO",
-				"given": "Chuan-Ping"
-			},
-			{
-				"family": "MAO",
-				"given": "Gao-Ping"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2005"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/15837688/items/ZVCXFVYQ",
-		"type": "article-journal",
-		"container-title": "Shi jie hua ren Xiao hua za zhi= World Chinese Journal of Digestology",
-		"issue": "13",
-		"page": "1507–1509",
-		"title": "Effects of inflammatory cytokines on metastasis of liver cancer after apparently curative operation",
-		"volume": "13",
-		"author": [
-			{
-				"family": "Bai",
-				"given": "Li"
-			},
-			{
-				"family": "Mao",
-				"given": "Gao-Ping"
-			},
-			{
-				"family": "Cao",
-				"given": "Chuan-Ping"
-			},
-			{
-				"family": "Zhang",
-				"given": "Ying-Hui"
 			}
 		],
 		"issued": {
@@ -3604,37 +3283,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/15837688/items/4RB2RV6F",
-		"type": "article-journal",
-		"container-title": "Chinese Journal of Digestive Diseases",
-		"issue": "4",
-		"note": "publisher: Blackwell Science Pty PO Box 378, Carlton South Victoria 3053, Australia",
-		"page": "175–180",
-		"title": "Mechanism of hepatocytes apoptosis induced by the proapoptosis protein Bid",
-		"volume": "5",
-		"author": [
-			{
-				"family": "Bai",
-				"given": "Li"
-			},
-			{
-				"family": "Cao",
-				"given": "Chuan Ping"
-			},
-			{
-				"family": "Mao",
-				"given": "Gao Ping"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2004"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/15837688/items/SILKAQEV",
 		"type": "paper-conference",
 		"container-title": "Multisensor, Multisource Information Fusion: Architectures, Algorithms, and Applications 2004",
@@ -3723,111 +3371,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/15837688/items/NVQ9E9AN",
-		"type": "article-journal",
-		"container-title": "The International Journal of Advanced Manufacturing Technology",
-		"note": "publisher: Springer-Verlag London Limited",
-		"page": "501–509",
-		"title": "Fixture configuration design for sheet metal assembly with laser welding: a case study",
-		"volume": "19",
-		"author": [
-			{
-				"family": "Li",
-				"given": "B"
-			},
-			{
-				"family": "Shui",
-				"given": "BW"
-			},
-			{
-				"family": "Lau",
-				"given": "KJ"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2002"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/15837688/items/7I9YD6LP",
-		"type": "article-journal",
-		"container-title": "Chin J Neurosurg (Chinese)",
-		"page": "83–86",
-		"title": "The clinical preliminary report of Gamma knife radiosurgery for gliomas",
-		"volume": "18",
-		"author": [
-			{
-				"family": "Yu",
-				"given": "X"
-			},
-			{
-				"family": "Liu",
-				"given": "ZH"
-			},
-			{
-				"family": "Zhou",
-				"given": "DX"
-			},
-			{
-				"family": "Hao",
-				"given": "JM"
-			},
-			{
-				"family": "Du",
-				"given": "JX"
-			},
-			{
-				"family": "Zhang",
-				"given": "W"
-			},
-			{
-				"family": "Li",
-				"given": "B"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2002"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/15837688/items/FJEMQ3JP",
-		"type": "article-journal",
-		"container-title": "The International Journal of Advanced Manufacturing Technology",
-		"note": "publisher: Springer-Verlag London Limited",
-		"page": "418–425",
-		"title": "Weld pattern design for sheet metal laser welding considering fixturing quality",
-		"volume": "19",
-		"author": [
-			{
-				"family": "Li",
-				"given": "B"
-			},
-			{
-				"family": "Shiu",
-				"given": "BW"
-			},
-			{
-				"family": "Lau",
-				"given": "KJ"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2002"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/15837688/items/ZXLUZ9FY",
 		"type": "paper-conference",
 		"container-title": "Proceedings 5th International Symposium on Autonomous Decentralized Systems",
@@ -3857,62 +3400,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/15837688/items/LL6EQCGS",
-		"type": "article-journal",
-		"container-title": "The International Journal of Advanced Manufacturing Technology",
-		"note": "publisher: Springer-Verlag London Limited",
-		"page": "266–275",
-		"title": "Principle and simulation of fixture configuration design for sheet metal assembly with laser welding, part 1: finite-element modelling and a prediction and correction method",
-		"volume": "18",
-		"author": [
-			{
-				"family": "Li",
-				"given": "B"
-			},
-			{
-				"family": "Shiu",
-				"given": "BW"
-			},
-			{
-				"family": "Lau",
-				"given": "KJ"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2001"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/15837688/items/NN6JMATG",
-		"type": "article-journal",
-		"container-title": "The International Journal of Advanced Manufacturing Technology",
-		"note": "publisher: Springer-Verlag London Limited",
-		"page": "276–284",
-		"title": "Principle and simulation of fixture configuration design for sheet metal assembly with laser welding, part 2: optimal configuration design with genetic algorithm",
-		"volume": "18",
-		"author": [
-			{
-				"family": "Li",
-				"given": "B"
-			},
-			{
-				"family": "Shiu",
-				"given": "BW"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2001"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/15837688/items/6KURGBDB",
 		"type": "thesis",
 		"genre": "PhD Thesis",
@@ -3928,41 +3415,6 @@
 			"date-parts": [
 				[
 					"2001"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/15837688/items/AKTCECAT",
-		"type": "paper-conference",
-		"container-title": "BIOPHYSICAL JOURNAL",
-		"note": "issue: 2",
-		"page": "TU292–TU292",
-		"publisher": "CELL PRESS 50 HAMPSHIRE ST, FLOOR 5, CAMBRIDGE, MA 02139 USA",
-		"title": "Interaction of calponin with desmin",
-		"volume": "72",
-		"author": [
-			{
-				"family": "Mabuchi",
-				"given": "K"
-			},
-			{
-				"family": "Li",
-				"given": "B"
-			},
-			{
-				"family": "Ip",
-				"given": "W"
-			},
-			{
-				"family": "Tao",
-				"given": "T"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"1997"
 				]
 			]
 		}
