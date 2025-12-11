@@ -13,7 +13,6 @@ social:
     orcid: https://orcid.org/0000-0002-7145-6203
     research-gate: https://www.researchgate.net/profile/Anway-Bose?ev=hdr_xprf
 education:
- - Education: 
     - B.Tech at Jalpaiguri Government Engineering College, 2014-2018
     - PhD ECE at Temple University, 2021-2026
 ---
