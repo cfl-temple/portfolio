@@ -1,7 +1,7 @@
 ---
 layout: member
 category: student
-title: Anway Boise
+title: Sarker Mohammad
 image: anway.jpg
 role: Master Student
 permalink: /team/bose-anway2
