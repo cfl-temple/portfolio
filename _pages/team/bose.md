@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Anway Boise
-image: bai.jpg
+image: anway.jpg
 role: PhD Student
 permalink: /team/bose-anway
 social:
