@@ -38,30 +38,84 @@ permalink: /team/
 <!-- Students -->
 
 <h2><a id="student"></a>Students</h2>
+
+<!-- PhD Students -->
+<h3>PhD Students</h3>
+<div class="row">
 {% assign members = site.pages | sort: 'title' %}
+{% assign phd_index = 0 %}
 {% for member in members %}
-    {% if member.path contains 'team/' and member.category == 'student' %}
-<div class="card team-member-card">
-    <div class="row mt-3">
-        <div class="col-md-2">
-            <a href="{{ site.baseurl }}{{ member.url }}">
-                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                    class="card-img img-responsive img-thumbnail"
-                    style="max-width: 100px;"/>
-            </a>
-        </div>
-
-        <div class="col-md-10">
-            <div class="card-body">
-            <h4 class="card-title">{{ member.title }}</h4>
-            <p class="card-text">{{ member.role }}</p>
-            </div>
-        </div>
+    {% if member.path contains 'team/' and member.category == 'student' and member.degree == 'phd' %}
+    {% assign phd_index = phd_index | plus: 1 %}
+    <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 20px;">
+        <a href="{{ site.baseurl }}{{ member.url }}">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+                class="img-responsive img-thumbnail"
+                style="max-width: 100px; margin: 0 auto;"/>
+        </a>
+        <h5 style="margin-top: 10px;">{{ member.title }}</h5>
+        <p class="text-muted" style="font-size: 12px;">{{ member.role }}</p>
     </div>
+    {% assign mod = phd_index | modulo: 3 %}
+    {% if mod == 0 %}
 </div>
-
+<div class="row">
+    {% endif %}
     {% endif %}
 {% endfor %}
+</div>
+
+<!-- Master Students -->
+<h3>Master Students</h3>
+<div class="row">
+{% assign members = site.pages | sort: 'title' %}
+{% assign ms_index = 0 %}
+{% for member in members %}
+    {% if member.path contains 'team/' and member.category == 'student' and member.degree == 'master' %}
+    {% assign ms_index = ms_index | plus: 1 %}
+    <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 20px;">
+        <a href="{{ site.baseurl }}{{ member.url }}">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+                class="img-responsive img-thumbnail"
+                style="max-width: 100px; margin: 0 auto;"/>
+        </a>
+        <h5 style="margin-top: 10px;">{{ member.title }}</h5>
+        <p class="text-muted" style="font-size: 12px;">{{ member.role }}</p>
+    </div>
+    {% assign mod = ms_index | modulo: 3 %}
+    {% if mod == 0 %}
+</div>
+<div class="row">
+    {% endif %}
+    {% endif %}
+{% endfor %}
+</div>
+
+<!-- Undergraduate Students -->
+<h3>Undergraduate Students</h3>
+<div class="row">
+{% assign members = site.pages | sort: 'title' %}
+{% assign ug_index = 0 %}
+{% for member in members %}
+    {% if member.path contains 'team/' and member.category == 'student' and member.degree == 'undergrad' %}
+    {% assign ug_index = ug_index | plus: 1 %}
+    <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 20px;">
+        <a href="{{ site.baseurl }}{{ member.url }}">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+                class="img-responsive img-thumbnail"
+                style="max-width: 100px; margin: 0 auto;"/>
+        </a>
+        <h5 style="margin-top: 10px;">{{ member.title }}</h5>
+        <p class="text-muted" style="font-size: 12px;">{{ member.role }}</p>
+    </div>
+    {% assign mod = ug_index | modulo: 3 %}
+    {% if mod == 0 %}
+</div>
+<div class="row">
+    {% endif %}
+    {% endif %}
+{% endfor %}
+</div>
 
 <!-- Past Members -->
 

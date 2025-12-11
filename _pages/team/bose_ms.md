@@ -1,10 +1,9 @@
 ---
 layout: member
 category: student
-degree: phd
-title: Anway Bose
+title: Anway Boise
 image: anway.jpg
-role: PhD Student
+role: MS Student
 permalink: /team/bose-anway
 social:
     twitter: https://twitter.com/
