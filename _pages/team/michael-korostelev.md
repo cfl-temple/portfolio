@@ -1,10 +1,10 @@
 ---
 layout: member
 category: past
-title: Yiran Li
-image: yiran.png
+title: Michael Korostelev
+image: korostelev.png
 role: Graduate Student
-permalink: /team/yiran-li
+permalink: /team/michael-korostelev
 social:
     twitter:
     linkedin:
@@ -16,4 +16,4 @@ social:
 education:
 ---
 
-Mr. Yiran Li worked on humanoid robot NAO project. His research interest was deep learning.
+Michael was a PhD student.
