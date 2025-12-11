@@ -5,7 +5,7 @@ degree: phd
 title: Anway Bose
 image: anway.jpg
 role: Undergraduate Student
-permalink: /team/bose-anway
+permalink: /team/bose-anway3
 social:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/
