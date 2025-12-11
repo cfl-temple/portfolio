@@ -1,11 +1,11 @@
 ---
 layout: member
 category: student
-degree: phd
-title: Anway Bose
+degree: bsee
+title: Richard Lin
 image: anway.jpg
 role: Undergraduate Student
-permalink: /team/bose-anway3
+permalink: /team/richard-lin
 social:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/
