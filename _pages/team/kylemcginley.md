@@ -1,7 +1,7 @@
 ---
 layout: member
 category: student
-degree: bsee
+degree: bsece
 title: Kyle McGinley
 image: anway.jpg
 role: Undergraduate Student
@@ -16,9 +16,7 @@ social:
     research-gate: https://www.researchgate.net/
 education:
  - Education: 
-    -- BSEE at Temple University, 1996
-    -- MSEEE at Drexel University, 1998
-    -- PhD EE at Drexel University, 2001
+    -- BSECE at Temple University, 1996
 ---
 
-Anway Bose is a PhD student in Electrical and Computer Engineering at Temple University. 
+Kyle Mcginley is an undergraduate student in Electrical and Computer Engineering at Temple University. 
