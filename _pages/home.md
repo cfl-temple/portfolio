@@ -12,17 +12,17 @@ We are tackling a fundamental challenge: enabling robust and secure data fusion 
 
 Our applied research focuses on building integration frameworks that combine:
 
--- Large Language Models (LLMs) for reasoning and adaptive decision-making.
--- Retrieval-Augmented Generation (RAG) for dynamic knowledge access.
--- Robotics and autonomous platforms for real-world sensing and actuation.
--- Edge and cloud computing architectures for scalable deployment.
+- Large Language Models (LLMs) for reasoning and adaptive decision-making.
+- Retrieval-Augmented Generation (RAG) for dynamic knowledge access.
+- Robotics and autonomous platforms for real-world sensing and actuation.
+- Edge and cloud computing architectures for scalable deployment.
 
 Key applied challenges we address:
 
--- System interoperability between robotics, AI models, and legacy infrastructure.
--- Secure communication protocols for multi-agent collaboration.
--- Privacy-preserving data fusion across distributed environments.
--- Real-time consensus and reliability in mission-critical applications.
--- Federated learning and multi-party computation for collaborative intelligence.
+- System interoperability between robotics, AI models, and legacy infrastructure.
+- Secure communication protocols for multi-agent collaboration.
+- Privacy-preserving data fusion across distributed environments.
+- Real-time consensus and reliability in mission-critical applications.
+- Federated learning and multi-party computation for collaborative intelligence.
 
 Our goal is to create end-to-end integration systems that allow intelligent agents—whether robots, sensors, or AI models—to work together seamlessly, securely, and efficiently in complex environments.
