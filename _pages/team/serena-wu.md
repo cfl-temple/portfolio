@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Yingting Wu
-image: serenawu.png
+image: serena.png
 role: Master Student
 permalink: /team/serena-wu
 grad_year: 2026
