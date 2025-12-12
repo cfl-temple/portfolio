@@ -34,11 +34,11 @@ permalink: /team/
 
 <!-- PhD Students -->
 <h3>PhD Students</h3>
-<div class="row" style="justify-content: center;">
+<div class="row" style="display: flex; flex-wrap: wrap; justify-content: center;">
 {% assign members = site.pages | sort: 'title' %}
 {% for member in members %}
     {% if member.path contains 'team/' and member.category == 'student' and member.role == 'PhD Student' %}
-    <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 20px;">
+    <div class="text-center" style="margin-bottom: 20px; padding: 0 15px; width: 33.33%;">
         <a href="{{ site.baseurl }}{{ member.url }}">
             <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
                 class="img-responsive img-thumbnail"
@@ -52,11 +52,11 @@ permalink: /team/
 
 <!-- Master Students -->
 <h3>Master Students</h3>
-<div class="row" style="justify-content: center;">
+<div class="row" style="display: flex; flex-wrap: wrap; justify-content: center;">
 {% assign members = site.pages | sort: 'title' %}
 {% for member in members %}
     {% if member.path contains 'team/' and member.category == 'student' and member.role == 'Master Student' %}
-    <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 20px;">
+    <div class="text-center" style="margin-bottom: 20px; padding: 0 15px; width: 33.33%;">
         <a href="{{ site.baseurl }}{{ member.url }}">
             <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
                 class="img-responsive img-thumbnail"
@@ -70,11 +70,11 @@ permalink: /team/
 
 <!-- Undergraduate Students -->
 <h3>Undergraduate Students</h3>
-<div class="row" style="justify-content: center;">
+<div class="row" style="display: flex; flex-wrap: wrap; justify-content: center;">
 {% assign members = site.pages | sort: 'title' %}
 {% for member in members %}
     {% if member.path contains 'team/' and member.category == 'student' and member.role == 'Undergraduate Student' %}
-    <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 20px;">
+    <div class="text-center" style="margin-bottom: 20px; padding: 0 15px; width: 33.33%;">
         <a href="{{ site.baseurl }}{{ member.url }}">
             <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
                 class="img-responsive img-thumbnail"
