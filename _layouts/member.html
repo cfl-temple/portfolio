@@ -65,6 +65,29 @@ layout: default
         </ul>
     </div>
 
+    <!-- Thesis/Report -->
+    {% if page.thesis %}
+    <div class="row">
+        <h3>Thesis / Project Report</h3>
+        <ul style="margin-left: 20px;">
+            {% for item in page.thesis %}
+                <li>
+                    {% if item.url %}
+                    <a href="{{ item.url }}" target="_blank">
+                        <i class="fas fa-file-pdf"></i> {{ item.title }}
+                    </a>
+                    {% elsif item.file %}
+                    <a href="{{ site.baseurl }}/files/{{ item.file }}" target="_blank">
+                        <i class="fas fa-file-pdf"></i> {{ item.title }}
+                    </a>
+                    {% endif %}
+                    {% if item.year %} ({{ item.year }}){% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
     <!-- Bio -->
     <div class="row">
         <h3>Bio</h3>
