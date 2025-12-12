@@ -118,6 +118,11 @@ permalink: /team/
         </a>
         <h5 style="margin-top: 10px;">{{ member.title }}</h5>
         <p class="text-muted" style="font-size: 12px;">{{ member.role }} ({{ member.grad_year }})</p>
+        {% if member.thesis %}
+        {% for item in member.thesis %}
+        <p style="font-size: 11px; margin: 5px 0;"><a href="{{ item.url }}" target="_blank"><i class="fas fa-file-pdf"></i> {{ item.title }}</a></p>
+        {% endfor %}
+        {% endif %}
     </div>
     {% endif %}
 {% endfor %}
@@ -151,6 +156,11 @@ permalink: /team/
                     </a>
                     <h5 style="margin-top: 10px;">{{ member.title }}</h5>
                     <p class="text-muted" style="font-size: 12px;">{{ member.role }} ({{ member.grad_year }})</p>
+                    {% if member.thesis %}
+                    {% for item in member.thesis %}
+                    <p style="font-size: 11px; margin: 5px 0;"><a href="{{ item.url }}" target="_blank"><i class="fas fa-file-pdf"></i> {{ item.title }}</a></p>
+                    {% endfor %}
+                    {% endif %}
                 </div>
                 {% endif %}
             {% endfor %}
