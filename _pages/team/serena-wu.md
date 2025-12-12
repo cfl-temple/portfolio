@@ -21,4 +21,4 @@ thesis:
     year: 2026
 ---
 
-Serena WU is a master student in Electrical and Computer Engineering at Temple University, research interest was multi-agent AI applications.
+Serena Wu is a master’s student in Electrical and Computer Engineering at Temple University, specializing in multi-agent AI applications.
