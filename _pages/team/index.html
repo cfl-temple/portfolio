@@ -89,10 +89,27 @@ permalink: /team/
 <!-- Past Members -->
 
 <h2><a id="past"></a>Past Members</h2>
+
+{% assign past_members = site.pages | where_exp: "m", "m.path contains 'team/' and m.category == 'past'" | sort: 'grad_year' | reverse %}
+{% assign all_years = "" | split: "," %}
+{% for member in past_members %}
+    {% assign year_num = member.grad_year | plus: 0 %}
+    {% unless all_years contains year_num %}
+        {% assign all_years = all_years | push: year_num %}
+    {% endunless %}
+{% endfor %}
+{% assign all_years = all_years | sort | reverse %}
+{% assign recent_years = all_years | slice: 0, 3 %}
+{% assign older_years = all_years | slice: 3, 100 %}
+
+<!-- Recent Years (expanded) -->
+{% for year in recent_years %}
+{% assign year_num = year | plus: 0 %}
+<h3>Class of {{ year_num }}</h3>
 <div class="row" style="display: flex; flex-wrap: wrap; justify-content: center;">
-{% assign members = site.pages | sort: 'grad_year' | reverse %}
-{% for member in members %}
-    {% if member.path contains 'team/' and member.category == 'past' %}
+{% for member in past_members %}
+    {% assign member_year = member.grad_year | plus: 0 %}
+    {% if member_year == year_num %}
     <div class="text-center" style="margin-bottom: 20px; padding: 0 15px; width: 25%;">
         <a href="{{ site.baseurl }}{{ member.url }}">
             <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
@@ -105,3 +122,41 @@ permalink: /team/
     {% endif %}
 {% endfor %}
 </div>
+{% endfor %}
+
+<!-- Older Years (collapsed) -->
+{% if older_years.size > 0 %}
+<div class="panel panel-default" style="margin-top: 20px;">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" href="#older-members" style="color: inherit;">
+                <span class="glyphicon glyphicon-chevron-down"></span> Earlier Alumni ({{ older_years | first }} and before)
+            </a>
+        </h4>
+    </div>
+    <div id="older-members" class="panel-collapse collapse">
+        <div class="panel-body">
+            {% for year in older_years %}
+            {% assign year_num = year | plus: 0 %}
+            <h4>Class of {{ year_num }}</h4>
+            <div class="row" style="display: flex; flex-wrap: wrap; justify-content: center;">
+            {% for member in past_members %}
+                {% assign member_year = member.grad_year | plus: 0 %}
+                {% if member_year == year_num %}
+                <div class="text-center" style="margin-bottom: 20px; padding: 0 15px; width: 25%;">
+                    <a href="{{ site.baseurl }}{{ member.url }}">
+                        <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+                            class="img-responsive img-thumbnail"
+                            style="max-width: 100px; margin: 0 auto;"/>
+                    </a>
+                    <h5 style="margin-top: 10px;">{{ member.title }}</h5>
+                    <p class="text-muted" style="font-size: 12px;">{{ member.role }}</p>
+                </div>
+                {% endif %}
+            {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
