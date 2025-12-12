@@ -3,7 +3,7 @@ layout: member
 category: student
 degree: bsece
 title: Richard Lin
-image: anway.jpg
+image: richardlin.jpg
 role: Undergraduate Student
 permalink: /team/richard-lin
 social:
