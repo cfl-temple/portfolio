@@ -17,9 +17,9 @@ social:
 education:
   - MSEE, Temple University, 2025
 thesis:
-  - title: "MSEE Project Report - Revidyne Bokeh"
+  - title: "Web-based Interactive Dashboard for Monitoring and Controlling Simulated Micro-Grids using Revidyne’s functional devices"
     release: "2025/ArnabDey_MSEE_Project_Revidyne_Bokeh.pdf"
     year: 2025
 ---
 
-Arnab Dey completed his MSEE at Temple University.
+Mr. Arnab Dey completed his MSEE at Temple University.

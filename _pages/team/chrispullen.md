@@ -17,9 +17,9 @@ social:
 education:
   - MSME, Temple University, 2025
 thesis:
-  - title: "MSME Project Report - Robotic Dog"
+  - title: "A Low-Cost Quadruped Robot Dog for K-12 STEM Education"
     release: "2025/Robot.Dog.Final.Paper.pdf"
     year: 2025
 ---
 
-Arnab Dey completed his MSEE at Temple University.
+Mr. Chris Pullen completed his MSME at Temple University, and he is currently a center director in Co-co Academy, Philadelphia.
