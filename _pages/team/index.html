@@ -11,29 +11,22 @@ permalink: /team/
 <!-- Staff -->
 
 <h2><a id="staff"></a>Staff</h2>
+<div class="row" style="justify-content: center;">
 {% assign members = site.pages | sort: 'title' %}
 {% for member in members %}
     {% if member.path contains 'team/' and member.category == 'staff' %}
-<div class="card team-member-card">
-    <div class="row mt-3">
-        <div class="col-md-2">
-            <a href="{{ site.baseurl }}{{ member.url }}">
-                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                    class="card-img img-responsive img-thumbnail"
-                    style="max-width: 100px;"/>
-            </a>
-        </div>
-
-        <div class="col-md-10">
-            <div class="card-body">
-            <h4 class="card-title">{{ member.title }}</h4>
-            <p class="card-text">{{ member.role }}</p>
-            </div>
-        </div>
+    <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 20px;">
+        <a href="{{ site.baseurl }}{{ member.url }}">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+                class="img-responsive img-thumbnail"
+                style="max-width: 150px; margin: 0 auto;"/>
+        </a>
+        <h4 style="margin-top: 10px;">{{ member.title }}</h4>
+        <p class="text-muted">{{ member.role }}</p>
     </div>
-</div>
     {% endif %}
 {% endfor %}
+</div>
 
 <!-- Students -->
 
@@ -41,12 +34,10 @@ permalink: /team/
 
 <!-- PhD Students -->
 <h3>PhD Students</h3>
-<div class="row">
+<div class="row" style="justify-content: center;">
 {% assign members = site.pages | sort: 'title' %}
-{% assign phd_index = 0 %}
 {% for member in members %}
     {% if member.path contains 'team/' and member.category == 'student' and member.role == 'PhD Student' %}
-    {% assign phd_index = phd_index | plus: 1 %}
     <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 20px;">
         <a href="{{ site.baseurl }}{{ member.url }}">
             <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
@@ -55,23 +46,16 @@ permalink: /team/
         </a>
         <h5 style="margin-top: 10px;">{{ member.title }}</h5>
     </div>
-    {% assign mod = phd_index | modulo: 3 %}
-    {% if mod == 0 %}
-</div>
-<div class="row">
-    {% endif %}
     {% endif %}
 {% endfor %}
 </div>
 
 <!-- Master Students -->
 <h3>Master Students</h3>
-<div class="row">
+<div class="row" style="justify-content: center;">
 {% assign members = site.pages | sort: 'title' %}
-{% assign ms_index = 0 %}
 {% for member in members %}
     {% if member.path contains 'team/' and member.category == 'student' and member.role == 'Master Student' %}
-    {% assign ms_index = ms_index | plus: 1 %}
     <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 20px;">
         <a href="{{ site.baseurl }}{{ member.url }}">
             <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
@@ -80,23 +64,16 @@ permalink: /team/
         </a>
         <h5 style="margin-top: 10px;">{{ member.title }}</h5>
     </div>
-    {% assign mod = ms_index | modulo: 3 %}
-    {% if mod == 0 %}
-</div>
-<div class="row">
-    {% endif %}
     {% endif %}
 {% endfor %}
 </div>
 
 <!-- Undergraduate Students -->
 <h3>Undergraduate Students</h3>
-<div class="row">
+<div class="row" style="justify-content: center;">
 {% assign members = site.pages | sort: 'title' %}
-{% assign ug_index = 0 %}
 {% for member in members %}
     {% if member.path contains 'team/' and member.category == 'student' and member.role == 'Undergraduate Student' %}
-    {% assign ug_index = ug_index | plus: 1 %}
     <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 20px;">
         <a href="{{ site.baseurl }}{{ member.url }}">
             <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
@@ -105,11 +82,6 @@ permalink: /team/
         </a>
         <h5 style="margin-top: 10px;">{{ member.title }}</h5>
     </div>
-    {% assign mod = ug_index | modulo: 3 %}
-    {% if mod == 0 %}
-</div>
-<div class="row">
-    {% endif %}
     {% endif %}
 {% endfor %}
 </div>
@@ -117,12 +89,10 @@ permalink: /team/
 <!-- Past Members -->
 
 <h2><a id="past"></a>Past Members</h2>
-<div class="row">
+<div class="row" style="justify-content: center;">
 {% assign members = site.pages | sort: 'grad_year' | reverse %}
-{% assign past_index = 0 %}
 {% for member in members %}
     {% if member.path contains 'team/' and member.category == 'past' %}
-    {% assign past_index = past_index | plus: 1 %}
     <div class="col-md-3 col-sm-6 text-center" style="margin-bottom: 20px;">
         <a href="{{ site.baseurl }}{{ member.url }}">
             <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
@@ -132,11 +102,6 @@ permalink: /team/
         <h5 style="margin-top: 10px;">{{ member.title }}</h5>
         <p class="text-muted" style="font-size: 12px;">{{ member.role }}</p>
     </div>
-    {% assign mod = past_index | modulo: 4 %}
-    {% if mod == 0 %}
-</div>
-<div class="row">
-    {% endif %}
     {% endif %}
 {% endfor %}
 </div>
