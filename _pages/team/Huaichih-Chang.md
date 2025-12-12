@@ -2,7 +2,7 @@
 layout: member
 category: past
 title: Huaichih Chang
-image: jamesren.png
+image: brianchang.png
 role: Alumni
 permalink: /team/Huaichih-Chang
 grad_year: 2024
