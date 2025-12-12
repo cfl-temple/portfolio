@@ -11,11 +11,11 @@ permalink: /team/
 <!-- Staff -->
 
 <h2><a id="staff"></a>Staff</h2>
-<div class="row" style="justify-content: center;">
+<div class="row" style="display: flex; flex-wrap: wrap; justify-content: center;">
 {% assign members = site.pages | sort: 'title' %}
 {% for member in members %}
     {% if member.path contains 'team/' and member.category == 'staff' %}
-    <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 20px;">
+    <div class="text-center" style="margin-bottom: 20px; padding: 0 15px;">
         <a href="{{ site.baseurl }}{{ member.url }}">
             <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
                 class="img-responsive img-thumbnail"
@@ -89,11 +89,11 @@ permalink: /team/
 <!-- Past Members -->
 
 <h2><a id="past"></a>Past Members</h2>
-<div class="row" style="justify-content: center;">
+<div class="row" style="display: flex; flex-wrap: wrap; justify-content: center;">
 {% assign members = site.pages | sort: 'grad_year' | reverse %}
 {% for member in members %}
     {% if member.path contains 'team/' and member.category == 'past' %}
-    <div class="col-md-3 col-sm-6 text-center" style="margin-bottom: 20px;">
+    <div class="text-center" style="margin-bottom: 20px; padding: 0 15px; width: 25%;">
         <a href="{{ site.baseurl }}{{ member.url }}">
             <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
                 class="img-responsive img-thumbnail"
