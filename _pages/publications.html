@@ -128,8 +128,16 @@ permalink: /publications/
 
     <!-- By Year -->
     <div role="tabpanel" class="tab-pane" id="byyear">
-        {% assign recent_years = "2025,2024,2023" | split: "," %}
-        {% assign older_years = "2022,2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005" | split: "," %}
+        {% assign all_years = "" | split: "," %}
+        {% for publi in site.data.publications %}
+            {% assign pub_year = publi.issued.date-parts | first | first | append: "" %}
+            {% unless all_years contains pub_year %}
+                {% assign all_years = all_years | push: pub_year %}
+            {% endunless %}
+        {% endfor %}
+        {% assign all_years = all_years | sort | reverse %}
+        {% assign recent_years = all_years | slice: 0, 3 %}
+        {% assign older_years = all_years | slice: 3, 100 %}
         
         <!-- Recent Years (shown by default) -->
         {% for year in recent_years %}
@@ -187,11 +195,12 @@ permalink: /publications/
         {% endfor %}
 
         <!-- Older Publications (collapsed) -->
+        {% if older_years.size > 0 %}
         <div class="panel panel-default" style="margin-top: 20px;">
             <div class="panel-heading">
                 <h4 class="panel-title">
                     <a data-toggle="collapse" href="#older-publications" style="color: inherit;">
-                        <span class="glyphicon glyphicon-chevron-down"></span> Older Publications (2021 and earlier)
+                        <span class="glyphicon glyphicon-chevron-down"></span> Older Publications ({{ older_years | first }} and earlier)
                     </a>
                 </h4>
             </div>
