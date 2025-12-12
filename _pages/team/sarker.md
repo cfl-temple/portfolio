@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Sarker Mohammad
-image: sarker.jpg
+image: sarker.png
 role: Master Student
 permalink: /team/sarker
 social:
