@@ -8,7 +8,9 @@ team:
     role: "Principal Investigator"
   - name: "YingTing Wu"
     role: "Graduate Student"
-  - name: "Kyle"
+  - name: "Sarker Mohammad"
+    role: "Graduate Student"
+  - name: "Kyle McGinley"
     role: "Undergraduate Student"    
 ---
 
