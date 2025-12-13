@@ -6,9 +6,7 @@ order: 2
 team:
   - name: "Li Bai"
     role: "Principal Investigator"
-  - name: "Danfeng Xie"
-    role: "PhD Student"
-  - name: "Hanlu Yang"
+  - name: "Michael Korostelev"
     role: "PhD Student"
 ---
 
