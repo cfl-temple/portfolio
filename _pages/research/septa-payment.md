@@ -2,7 +2,7 @@
 layout: default
 title: SEPTA Electronic Payment Project
 image: septa.png
-order: 2
+order: 3
 years: 2005-2008
 ---
 

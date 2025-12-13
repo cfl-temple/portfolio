@@ -2,7 +2,7 @@
 layout: default
 title: Remote Obstetrics Monitoring Systems
 image: fetal.png
-order: 1
+order: 2
 ---
 
 Wireless fetal monitoring will keep mothers, doctors and babies safer.

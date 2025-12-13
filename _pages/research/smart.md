@@ -2,7 +2,7 @@
 layout: default
 title: Survey and Measurement using Avatar and Robotic Technology (SMART)
 image: smart.png
-order: 3
+order: 4
 ---
 
 Recent advances in interactive technologies, such as humanoid robotic systems and computer avatars have emerged within healthcare and education settings. Interactive technologies have seen widespread use as teaching technology platforms, for the administration of patient-reported outcomes (PROs), as well as training, care and opportunities for social interaction. Physiological sensor data from examinees will be meshed with the real-time video and environmental data from the home assistant hub and cross referenced with the testing database to adaptively administer PROs.
