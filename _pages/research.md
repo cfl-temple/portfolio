@@ -76,29 +76,16 @@ The Computer Fusion Laboratory (CFL) is part of Temple University's Electrical a
     </h4>
   </div>
   <div id="older-projects" class="panel-collapse collapse">
-    <div class="panel-body">
-{% for project in all_pages %}
-{% if project.path contains '_pages/research/' and project.order and project.order > 3 %}
+    <div class="panel-body" markdown="0">
+{% for project in all_pages %}{% if project.path contains '_pages/research/' and project.order and project.order > 3 %}
       <h3>{{ project.title }}</h3>
       {% if project.years %}<p class="text-muted"><em>{{ project.years }}</em></p>{% endif %}
-      <div class="research">
-        {% if project.image %}
-        <img src="{{ site.baseurl }}/images/research/{{ project.image }}" style="max-width: 400px; float: right; margin-left: 20px;">
-        {% endif %}
-      </div>
+      <div class="research">{% if project.image %}<img src="{{ site.baseurl }}/images/research/{{ project.image }}" style="max-width: 400px; float: right; margin-left: 20px;">{% endif %}</div>
       <div>{{ project.content }}</div>
-      {% if project.team %}
-      <h4>Team Members</h4>
-      <ul>
-      {% for member in project.team %}
-        <li><strong>{{ member.name }}</strong> - {{ member.role }}</li>
-      {% endfor %}
-      </ul>
-      {% endif %}
+      {% if project.team %}<h4>Team Members</h4><ul>{% for member in project.team %}<li><strong>{{ member.name }}</strong> - {{ member.role }}</li>{% endfor %}</ul>{% endif %}
       <div style="clear: both;"></div>
       <hr>
-{% endif %}
-{% endfor %}
+{% endif %}{% endfor %}
     </div>
   </div>
 </div>
