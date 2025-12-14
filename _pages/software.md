@@ -19,7 +19,7 @@ Software tools and projects developed by the Computer Fusion Laboratory.
 
 **Technologies:** Python, TensorFlow, ROS
 
-**GitHub:** [Repository Link](https://github.com/lbaitemple/tgdhstruct)
+**GitHub:** [Repository Link](https://github.com/lbaitemple/tgdhstruct){:target="_blank"}
 
 ---
 
@@ -28,19 +28,19 @@ Software tools and projects developed by the Computer Fusion Laboratory.
 
 **Technologies:** Matlab, Java
 
-**GitHub:** [Repository Link](https://github.com/lbaitemple/TED)
+**GitHub:** [Repository Link](https://github.com/lbaitemple/TED){:target="_blank"}
 
 ---
 
 ## Tools & Libraries
 
 *Add your lab's software tools here. For each tool, include:*
-- FPGA Programmer - https://temple.short.gy/svfloader
-- Web double emlimination bracket - http://cflwww.eng.temple.edu/DEB
-- Minipupper course - https://lbaitemple.github.io/minipupperv2
+- [FPGA Programmer](https://temple.short.gy/svfloader){:target="_blank"}
+- [Web double emlimination bracket](http://cflwww.eng.temple.edu/DEB){:target="_blank"}
+- [Minipupper course](https://lbaitemple.github.io/minipupperv2){:target="_blank"}
 
 ---
 
 ## How to Contribute
 
-If you're interested in contributing to our software projects, please visit our [GitHub organization](https://github.com/cfl-temple/) or contact the lab.
+If you're interested in contributing to our software projects, please visit our [GitHub organization](https://github.com/cfl-temple/){:target="_blank"} or contact the lab.
