@@ -2,7 +2,7 @@
 layout: default
 title: "Assessment of Cyber-threats and Vulnerabilities & Design of Mitigation Strategies​ for AI enabled agents in battlefied" 
 image: seed1.png
-order: 2
+order: 4
 years: 2022-2025
 categories:
   - Security

@@ -2,7 +2,7 @@
 layout: default
 title: Survey and Measurement using Avatar and Robotic Technology (SMART)
 image: smart.png
-order: 4
+order: 2
 years: 2016-2018
 categories:
   - Healthcare
