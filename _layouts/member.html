@@ -14,9 +14,15 @@ layout: default
     </div>
     <div class="row text-center">
         <!-- Avatar -->
+        {% if page.category == 'past' %}
+        <img src="{{ site.url }}{{ site.baseurl }}/images/team/alumni/{{ page.grad_year }}/{{ page.image }}"
+             class="img-circle"
+             style="max-width: 200px;"/>
+        {% else %}
         <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ page.image }}"
              class="img-circle"
              style="max-width: 200px;"/>
+        {% endif %}
 
         <!-- Name & Role -->
         <h1>{{ page.title }}</h1>
