@@ -2,9 +2,13 @@
 layout: default
 title: "Assessment of Cyber-threats and Vulnerabilities & Design of Mitigation Strategies​ for AI enabled agents in battlefied" 
 image: seed1.png
-image: seed2.png
 order: 2
 years: 2022-2025
+categories:
+  - Security
+  - AI/ML
+  - Distributed Systems
+  - Cryptography
 team:
   - name: "Li Bai"
     role: "Principal Investigator"
