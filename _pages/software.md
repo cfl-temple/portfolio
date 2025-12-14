@@ -17,7 +17,7 @@ Software tools and projects developed by the Computer Fusion Laboratory.
 ### TGDH - python
 **Description:** TGDH is a shared cryptographic key established among all members of a dynamic group using the Tree-based Group Diffie–Hellman (TGDH) protocol. It enables secure group communication by allowing members to efficiently compute a common secret while supporting dynamic membership changes (join/leave) with scalable rekeying and forward/backward secrecy.
 
-**Technologies:** Python, TensorFlow, ROS
+**Technologies:** Python
 
 **GitHub:** [Repository Link](https://github.com/lbaitemple/tgdhstruct){:target="_blank"}
 
