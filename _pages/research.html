@@ -6,8 +6,8 @@ sitemap: false
 permalink: /research/
 ---
 
-{% capture research_intro %}{% include research-intro.md %}{% endcapture %}
-{{ research_intro | markdownify }}
+{% assign intro_page = site.pages | where: "path", "_pages/research-intro.md" | first %}
+{{ intro_page.content | markdownify }}
 
 <hr>
 
