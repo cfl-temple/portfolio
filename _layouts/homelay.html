@@ -2,41 +2,49 @@
 layout: default
 ---
 
-<div class="row">
-	<div id="homeid" class="col-sm-8">
-		{% assign slider_images = site.static_files | where_exp: "file", "file.path contains '/images/slider/'" %}
-		<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
-			<!-- Menu -->
-			<ol class="carousel-indicators">
-				{% for image in slider_images %}
-				<li data-target="#carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
-				{% endfor %}
-			</ol>
+<div id="homeid">
+	<div class="row">
+		<div class="col-sm-12">
+			{% assign slider_images = site.static_files | where_exp: "file", "file.path contains '/images/slider/'" %}
+			<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" style="max-width: 800px; margin: 20px auto;">
+				<!-- Menu -->
+				<ol class="carousel-indicators">
+					{% for image in slider_images %}
+					<li data-target="#carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
+					{% endfor %}
+				</ol>
 
-			<!-- Items -->
-			<div class="carousel-inner" markdown="0">
-				{% for image in slider_images %}
-				<div class="item {% if forloop.first %}active{% endif %}">
-					<img src="{{ site.url }}{{ site.baseurl }}{{ image.path }}" alt="Slide {{ forloop.index }}" />
+				<!-- Items -->
+				<div class="carousel-inner" markdown="0">
+					{% for image in slider_images %}
+					<div class="item {% if forloop.first %}active{% endif %}">
+						<img src="{{ site.url }}{{ site.baseurl }}{{ image.path }}" alt="Slide {{ forloop.index }}" />
+					</div>
+					{% endfor %}
 				</div>
-				{% endfor %}
+				<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+				</a>
 			</div>
-			<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-			</a>
-			<a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-			</a>
-		</div>
-
-		<div style="margin-top: 20px;">
-			{{ content }}
 		</div>
 	</div>
 
-	<div id="newsid" class="col-sm-4">
-		{% include tweets.html %}
+	<div class="row">
+		<div class="col-sm-12">
+			<div style="margin-top: 20px;">
+				{{ content }}
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div id="newsid" class="col-sm-12" style="margin-top: 30px;">
+			{% include tweets.html %}
+		</div>
 	</div>
 </div>
