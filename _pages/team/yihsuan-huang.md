@@ -21,4 +21,4 @@ thesis:
     year: 2026
 ---
 
-Ms. Yi Hsuan Huang's research interest was chip development.
+Yi Hsuan Huang is a master’s student in Electrical and Computer Engineering at Temple University
