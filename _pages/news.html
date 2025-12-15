@@ -9,11 +9,19 @@ permalink: /news.html
 
 <ul class="list-unstyled">
     {% for article in site.data.news %}
-        <li class="media">
+        <li class="media" style="margin-bottom: 30px;">
+            {% if article.image %}
+            <div class="media-left" style="padding-right: 15px;">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/{{ article.image }}" 
+                     alt="{{ article.title }}" 
+                     class="media-object" 
+                     style="max-width: 200px; border-radius: 5px;">
+            </div>
+            {% endif %}
             <div class="media-body">
-            <h4 class="mt-0 mb-1">{{ article.title }}</h4>
-            <p><small>{{ article.date }}</small></p>
-            {{ article.content }}
+                <h4 class="mt-0 mb-1">{{ article.title }}</h4>
+                <p><small>{{ article.date }}</small></p>
+                {{ article.content }}
             </div>
         </li>
     {% endfor %}
