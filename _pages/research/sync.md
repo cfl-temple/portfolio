@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "SYNC-Smart: Your Next Companion For Parkinson's Disease" 
-image: sync.png
+image: sync.jpg
 order: 5
 years: 2024-Present
 categories:
