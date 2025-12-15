@@ -140,9 +140,12 @@ permalink: /publications/
             {% assign journal_pubs = site.data.publications | where: "type", "article-journal" %}
             {% assign journal_total = journal_pubs | size %}
             {% assign journal_index = 0 %}
+            
+            <!-- Recent 10 Journal Papers -->
             {% for publi in site.data.publications %}
                 {% if publi.type == "article-journal" %}
                 {% assign journal_index = journal_index | plus: 1 %}
+                {% if journal_index <= 10 %}
                 {% assign display_num = journal_total | minus: journal_index | plus: 1 %}
                 <div class="panel-heading">
                     <a data-toggle="collapse" data-parent="#accordion-journal"
@@ -182,9 +185,67 @@ permalink: /publications/
                     </div>
                 </div>
                 {% endif %}
+                {% endif %}
             {% endfor %}
             </div>
         </div>
+        
+        <!-- Older Journal Papers (collapsed) -->
+        {% if journal_total > 10 %}
+        <div class="panel panel-default" style="margin-top: 20px;">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#older-journal-pubs" style="color: inherit;">
+                        <span class="glyphicon glyphicon-chevron-down"></span> Older Journal Publications ({{ journal_total | minus: 10 }} more)
+                    </a>
+                </h4>
+            </div>
+            <div id="older-journal-pubs" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div class="panel-group" id="accordion-journal-old">
+                        <div class="panel panel-default">
+                        {% assign journal_index = 0 %}
+                        {% for publi in site.data.publications %}
+                            {% if publi.type == "article-journal" %}
+                            {% assign journal_index = journal_index | plus: 1 %}
+                            {% if journal_index > 10 %}
+                            {% assign display_num = journal_total | minus: journal_index | plus: 1 %}
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-journal-old"
+                                   href="#collapse-journal-old-{{journal_index}}"
+                                   style="color: inherit;">
+                                <strong>[{{display_num}}]</strong>
+                                {% assign authors = "" | split:"/" %}
+                                {% for author in publi.author %}
+                                    {% assign authors = authors | push: author.family %}
+                                {% endfor %}
+                                {{ authors | array_to_sentence_string }},
+                                "{{ publi.title }}",
+                                <b>{{ publi.container-title }}</b>
+                                ({{ publi.issued.date-parts | jsonify | slice: 3,4 }}),
+                                {% if publi.DOI %}
+                                    <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+                                {% endif %}
+                                </a>
+                            </div>
+                            <div id="collapse-journal-old-{{journal_index}}" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>{{ publi.abstract }}</p>
+                                    {% if publi.DOI %}
+                                    <a class="btn btn-outline-primary" href="https://doi.org/{{publi.DOI}}"
+                                       role="button" target="blank">Link</a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
     </div>
 
     <!-- By Year -->
