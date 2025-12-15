@@ -6,7 +6,7 @@ layout: default
 	<div class="row">
 		<div class="col-sm-12">
 			{% assign slider_images = site.static_files | where_exp: "file", "file.path contains '/images/slider/'" %}
-			<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" style="max-width: 800px; margin: 20px auto;">
+			<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
 				<!-- Menu -->
 				<ol class="carousel-indicators">
 					{% for image in slider_images %}
