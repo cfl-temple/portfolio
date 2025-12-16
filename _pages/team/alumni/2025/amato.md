@@ -7,6 +7,10 @@ role: Alumni
 permalink: /team/joe-amato
 grad_year: 2025
 social:
+thesis:
+  - title: "TOWARDS SECURE AND DECENTRALIZED ENERGY DISPATCH: FUEL OPTIMIZATION USING DISTRIBUTED LEARNING FOR ENERGY DEMAND AND STORAGE STRATEGIES"
+    release: "2025/Dissertation-Amato9.12.25.pdf"
+    year: 2025
 education:
     - BSEE, Virginia Tech, 2003-2007
     - MSEE, Villanova University, 2015-2018
