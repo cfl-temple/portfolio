@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Assessment of Cyber-threats and Vulnerabilities & Design of Mitigation Strategies​ for AI enabled agents in battlefied" 
+title: "Assessment of Cyber-threats and Vulnerabilities & Design of Mitigation Strategies​ for AI enabled agents in battlefield" 
 image: seed1.png
 order: 4
 years: 2022-2025
