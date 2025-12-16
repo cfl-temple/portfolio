@@ -7,15 +7,11 @@ role: Alumni
 permalink: /team/krunal-cholera
 grad_year: 2005
 social:
-    twitter:
-    linkedin:
-    google-scholar:
-    github:
-    website:
-    orcid:
-    research-gate:
+    linkedin: https://www.linkedin.com/in/krunal-cholera-6198621/
+    website: http://www.docrashmin.com/home.htm
 education:
- - MSEE, 2005
+ - BE Electronics at University of Mumbai
+ - MSEE at Temple University, 2001-2005
 ---
 
-MSEE, 2005. Technical Manager eRA at Temple University.
+Krunal Cholera is Technical Manager eRA at Temple University
