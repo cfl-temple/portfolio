@@ -15,6 +15,7 @@ social:
     orcid:
     research-gate:
 education:
+  - BSEE
 thesis:
   - title: "SYNC-Smart: Your Next Companion For Parkinson’s Disease"
     release: ""
