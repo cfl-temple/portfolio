@@ -1,3 +1,12 @@
+- date: 11/20/25
+  title: "2025 Butz Scholarship Winner: Kyle McGinley"
+  image: "news/amia.jpg"
+  tags:
+    - robotics
+    - AI
+  content: >
+    Kyle McGinley is the [2025 Butz Scholarship Winner](https://engineering.temple.edu/news/2025/11/2025-butz-scholarship-winner-kyle-mcginley).
+
 - date: 11/15/25
   title: "AMIA KDDM Collaborative Workshop"
   image: "news/amia.jpg"
@@ -9,7 +18,6 @@
     highlighting how AI and robotics can support caregiving through real-world 
     applications. The workshop offered a valuable opportunity to exchange ideas 
     and gain insights from fellow researchers.
-
 
 - date: 08/09/17
   title: "Summer students"
