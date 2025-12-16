@@ -7,13 +7,12 @@ permalink: /
 ---
 
 <div class="jumbotron" style="background-color: #f8f9fa; padding: 40px 30px; margin-bottom: 30px;">
-  <p>
-    <a class="btn btn-primary btn-lg" href="{{ site.baseurl }}/research" role="button">Learn more about our research</a>
-  </p>
   <h1 style="margin-top: 0;">Welcome to CFL</h1>
   <p class="lead">We are a research group at Temple University focused on sensor fusion in distributed systems.</p>
   <p>Our mission is to advance the state of the art in sensor fusion through innovative research and collaboration.</p>
-
+  <p>
+    <a class="btn btn-primary btn-lg" href="{{ site.baseurl }}/research" role="button">Learn more about our research</a>
+  </p>
 </div>
 
 <div class="row">
