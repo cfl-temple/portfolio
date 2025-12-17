@@ -4,7 +4,7 @@ category: past
 title: Wiriyanto Darsono
 image: wiriyanto.jpeg
 role: Alumni
-permalink: /team/wiriyanto
+permalink: /team/alumni/2004/wiriyantodarsono
 grad_year: 2004
 social:
     linkedin: https://www.linkedin.com/in/wdarsono/
