@@ -4,7 +4,7 @@ category: past
 title: Sachin Francis
 image: sachin.jpg
 role: Alumni
-permalink: /team/alumni/2003/sachinfrancis.md
+permalink: /team/alumni/2003/sachinfrancis
 grad_year: 2003
 social:
     linkedin: https://www.linkedin.com/in/sachin-francis-msee-mba/
