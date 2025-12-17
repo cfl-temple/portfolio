@@ -4,7 +4,7 @@ category: past
 title: Wiriyanto Darsono
 image: wiriyanto.jpeg
 role: Alumni
-permalink: /team/wiriyantodarsono
+permalink: /team/krunal-cholera
 grad_year: 2004
 social:
     linkedin: https://www.linkedin.com/in/wdarsono/
