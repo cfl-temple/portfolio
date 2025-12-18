@@ -19,4 +19,4 @@ education:
  - PhD ECE at Temple University, 2011-2018
 ---
 
-Dr. James (Qiangguo) Ren’s research interests were multi-agent systems, optimization, and smart grids
+Dr. James (Qiangguo) Ren’s research interests were multi-agent systems, optimization, and smart grids.

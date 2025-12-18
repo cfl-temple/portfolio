@@ -21,4 +21,4 @@ thesis:
     year: 2009
 ---
 
-Dr. Zhao Cheng’s research interests were multi-agent systems and system diagnosis
+Dr. Zhao Cheng’s research interests were multi-agent systems and system diagnosis.

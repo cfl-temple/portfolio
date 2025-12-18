@@ -20,4 +20,4 @@ education:
  - PhD (ABD) Engineering at Temple University, 2011-2015
 ---
 
-Michael Korostelev was a PhD student (ABD) and is currently a Lead AI Engineer at MFD
+Michael Korostelev was a PhD student (ABD) and is currently a Lead AI Engineer at MFD.
