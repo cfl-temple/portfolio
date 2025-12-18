@@ -20,4 +20,4 @@ education:
  - PhD ECE at Temple University, 2013-2016
 ---
 
-Ning Gong is a Senior Software Engineer at Dark Matter Technologies.
+Dr. Ning Gong is a Senior Software Engineer at Dark Matter Technologies.

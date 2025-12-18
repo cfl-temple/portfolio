@@ -20,4 +20,4 @@ education:
  - MBA at University of Massachusetts Amherst, 2016-2019
 ---
 
-Balakumar Ragunathan is a Senior Program and Product Manager at NVIDIA.
+Mr. Balakumar Ragunathan is a Senior Program and Product Manager at NVIDIA.

@@ -21,4 +21,4 @@ education:
  - MSE at Iowa State University, 2012-2014
 ---
 
-Kanupriya Salaria is Senior Director, Business Class Seating, Interiors at Collins Aerospace.
+Ms. Kanupriya Salaria is Senior Director, Business Class Seating, Interiors at Collins Aerospace.

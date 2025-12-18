@@ -21,4 +21,4 @@ education:
 
 ---
 
-Ying Feng was a master's student and is currently a Research and Development Test Engineer at Intel.
+Dr. Ying Feng was a master's student and is currently a Research and Development Test Engineer at Intel.

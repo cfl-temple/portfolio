@@ -20,4 +20,4 @@ education:
 - MSEE at Temple University, 2017-2020
 ---
 
-Catherine (Hanlu Yang) was a PhD student at Temple University. Her research interests included robotics, artificial intelligence, and machine learning.
+Ms. Catherine (Hanlu Yang) was a PhD student at Temple University. Her research interests included robotics, artificial intelligence, and machine learning.

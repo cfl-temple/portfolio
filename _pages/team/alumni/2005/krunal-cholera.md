@@ -19,4 +19,4 @@ education:
  - MSEE at Temple University, 2001-2005
 ---
 
-Krunal Cholera is a Technical Manager eRA at Temple University.
+Mr. Krunal Cholera is a Technical Manager eRA at Temple University.

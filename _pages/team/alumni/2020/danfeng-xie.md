@@ -19,4 +19,4 @@ education:
 - PhD EE at Temple University, 2013-2020
 ---
 
-Danfeng Xie was a PhD student working on medical image processing projects. His research interests include deep learning, machine learning, computer vision, medical image analysis, robotics, and fault diagnosis. He is currently a Senior Machine Learning Engineer at Comcast.
+Dr. Danfeng Xie was a PhD student working on medical image processing projects. His research interests include deep learning, machine learning, computer vision, medical image analysis, robotics, and fault diagnosis. He is currently a Senior Machine Learning Engineer at Comcast.

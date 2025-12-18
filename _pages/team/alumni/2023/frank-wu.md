@@ -23,4 +23,4 @@ thesis:
     year: 2023
 ---
 
-Frank Wu is a Product Manager at Everspring Industry Co.,Ltd.
+Mr. Frank Wu is a Product Manager at Everspring Industry Co.,Ltd.
