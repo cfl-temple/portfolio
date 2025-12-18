@@ -23,4 +23,4 @@ thesis:
     year: 2023
 ---
 
-Richard Sand is the CEO of IDF Connect, Inc.
+Mr. Richard Sand is the CEO of IDF Connect, Inc.
