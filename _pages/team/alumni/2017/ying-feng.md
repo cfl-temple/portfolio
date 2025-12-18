@@ -10,8 +10,8 @@ social:
     twitter:
     linkedin: https://www.linkedin.com/in/dryof/
     google-scholar:
-    github:
-    website:
+    github: 
+    website: 
     orcid:
     research-gate:
 education:

@@ -9,7 +9,7 @@ grad_year: 2018
 social:
     twitter:
     linkedin:
-    google-scholar:
+    google-scholar: https://scholar.google.com/citations?user=AYY1Jo8AAAAJ&hl=en
     github:
     website:
     orcid:
