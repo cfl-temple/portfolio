@@ -7,15 +7,15 @@ role: Alumni
 permalink: /team/feiyu-xiong
 grad_year: 2009
 social:
-    twitter:
-    linkedin:
-    google-scholar:
-    github:
-    website:
-    orcid:
-    research-gate:
+    linkedin: https://www.linkedin.com/in/feiyuxiong/
+    google-scholar: https://scholar.google.com/citations?hl=en&user=GOKgLdQAAAAJ
+    website: https://feiyuxiong.weebly.com/index.html
+    orcid: https://orcid.org/0000-0002-1456-2202
+    research-gate: https://www.researchgate.net/profile/Feiyu-Xiong-3
 education:
- - MSEE, 2009
+ - BS Automation at Huazhong University of Science and Technology, 2003-2007
+ - MSEE at Temple University, 2007-2009
+ - Ph.D at Drexel University, 2009-2013
 ---
 
-MSEE, 2009. Now at Alibaba.
+Feiyu Xiong is an Chief Executive Officer and Founder at MemTensor (Shanghai) Technology Co Ltd
