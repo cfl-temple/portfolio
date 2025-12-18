@@ -7,14 +7,17 @@ role: Alumni
 permalink: /team/michael-korostelev
 grad_year: 2017
 social:
-    twitter:
-    linkedin:
-    google-scholar:
-    github:
-    website:
-    orcid:
+    twitter: https://x.com/mike_korostelev
+    linkedin: https://www.linkedin.com/in/michaelkorostelev/
+    google-scholar: https://scholar.google.com/citations?hl=en&user=ihDndRAAAAAJ
+    github: https://github.com/korostelevm
+    website: https://mikekorostelev.com/
+    orcid: 
     research-gate:
 education:
+ - BSEE at Temple University, 2005-2009
+ - MSEE at Temple University, 2011-2015
+ - PhD (ABD), Engineering, 2011-2015
 ---
 
-Michael was a PhD student.
+Michael Korostelev was a PhD student (ABD) and is currently a Lead AI Engineer at MFD
