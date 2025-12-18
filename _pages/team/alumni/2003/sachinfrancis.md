@@ -19,4 +19,4 @@ education:
  - MBA at University of Iowa, 2016-2019
 ---
 
-Sachin Francis is a Associate Director at Collins Aerospace
+Sachin Francis is an Associate Director at Collins Aerospace

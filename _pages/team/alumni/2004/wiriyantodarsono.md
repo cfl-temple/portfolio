@@ -7,8 +7,13 @@ role: Alumni
 permalink: /team/wiriyantodarsono
 grad_year: 2004
 social:
+    twitter:
     linkedin: https://www.linkedin.com/in/wdarsono/
     google-scholar: https://scholar.google.com/citations?user=IUqkmRUAAAAJ&hl=en
+    github:
+    website:
+    orcid:
+    research-gate:
 education:
  - BSEE at Sekolah Tinggi Teknik Surabaya, 1992-1997
  - MSECE at Temple University, 2001-2004
