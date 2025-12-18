@@ -7,13 +7,7 @@ role: Alumni
 permalink: /team/zhaocheng
 grad_year: 2009
 social:
-    twitter:
-    linkedin:
-    google-scholar:
-    github:
-    website:
-    orcid:
-    research-gate:
+    google-scholar: https://scholar.google.com/citations?user=9eSo9DsAAAAJ&hl=en
 education:
 thesis:
   - title: "Thesis Report"
