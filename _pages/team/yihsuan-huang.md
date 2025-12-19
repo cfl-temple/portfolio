@@ -15,7 +15,7 @@ social:
     orcid:
     research-gate:
 education:
-  - BSEE at Chung Yuan Christian University, 2021-2024
+  - BSEE at Chung Yuan Christian University, 2021-2025
   - MEng EE at Temple University, 2024-2026
 
 thesis:
@@ -24,4 +24,4 @@ thesis:
     year: 2026
 ---
 
-Yi Hsuan Huang is a master’s student in Electrical and Computer Engineering at Temple University
+Ms. Yi-Hsuan (Kelly) Huang is a master’s student in Electrical and Computer Engineering at Temple University. She works as a research assistant in the Computer Fusion Lab, focusing on cycle design and system integration using the Revidyne Energy Device Manager, with an emphasis on energy control and operational optimization. Kelly contributes to projects that combine hardware and software solutions to enhance energy efficiency and system performance.
