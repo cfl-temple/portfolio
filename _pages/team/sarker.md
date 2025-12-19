@@ -12,8 +12,8 @@ social:
     github: https://github.com/SarkerMohammed
     website:
 education:
-    -BSCS & Physics at Temple University, 2021-2025
-    -MSEE at Temple University, 2025-2027
+    - BSCS & Physics at Temple University, 2021-2025
+    - MSEE at Temple University, 2025-2027
 ---
 
 Sarker Mohammad is a Master's student in Electrical and Computer Engineering at Temple University. 
