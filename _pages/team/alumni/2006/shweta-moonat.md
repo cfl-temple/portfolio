@@ -14,4 +14,4 @@ education:
  - MSECE at Temple Unviversity, 2004-2006
 ---
 
-Ms. Shweta Moonat is Director of Technical Program Management Office Health and Life Sciences at Microsoft.
+Shweta Moonat is Director of Technical Program Management Office Health and Life Sciences at Microsoft.

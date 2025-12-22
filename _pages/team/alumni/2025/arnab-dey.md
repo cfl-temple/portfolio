@@ -25,4 +25,4 @@ thesis:
     year: 2025
 ---
 
-Mr. Arnab Dey is a Senior Software Engineer at Guidewire Software.
+Arnab Dey is a Senior Software Engineer at Guidewire Software.

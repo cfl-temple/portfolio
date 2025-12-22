@@ -23,4 +23,4 @@ thesis:
     year: 2026
 ---
 
-Serena Wu is a master’s student in Electrical and Computer Engineering at Temple University, specializing in multi-agent AI applications. She works as a research assistant in the Computer Fusion Lab, focusing on AI systems and large language model integration for the humanoid robot platform designed for health applications. Serena has contributed to demonstrations at events such as the grand opening of Paley Hall and the AMIA KDDM Collaborative Workshop, showcasing the robot’s AI capabilities to both technical and non-technical audiences.
+Ying Ting (Serena) Wu is a master’s student in Electrical and Computer Engineering at Temple University, specializing in multi-agent AI applications. She works as a research assistant in the Computer Fusion Lab, focusing on AI systems and large language model integration for the humanoid robot platform designed for health applications. Serena has contributed to demonstrations at events such as the grand opening of Paley Hall and the AMIA KDDM Collaborative Workshop, showcasing the robot’s AI capabilities to both technical and non-technical audiences.

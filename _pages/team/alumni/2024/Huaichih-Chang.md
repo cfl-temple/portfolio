@@ -23,4 +23,4 @@ thesis:
     year: 2024
 ---
 
-Mr. Huaichih Chang's research interests were in chip development.
+Huaichih Chang's research interests were in chip development.

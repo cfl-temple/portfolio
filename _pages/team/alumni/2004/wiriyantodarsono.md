@@ -20,4 +20,4 @@ education:
  - MSc EE at Penn State University, 2005-2008
 ---
 
-Mr. Wiriyanto Darsono is a Senior Researcher at Merry Electronics (Singapore) Pte. Ltd.
+Wiriyanto Darsono is a Senior Researcher at Merry Electronics (Singapore) Pte. Ltd.

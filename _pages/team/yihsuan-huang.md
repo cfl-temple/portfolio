@@ -24,4 +24,4 @@ thesis:
     year: 2026
 ---
 
-Ms. Yi-Hsuan (Kelly) Huang is a master’s student in Electrical and Computer Engineering at Temple University. She works as a research assistant in the Computer Fusion Lab, focusing on cycle design and system integration using the Revidyne Energy Device Manager, with an emphasis on energy control and operational optimization. Kelly contributes to projects that combine hardware and software solutions to enhance energy efficiency and system performance.
+Yi-Hsuan (Kelly) Huang is a master’s student in Electrical and Computer Engineering at Temple University. She works as a research assistant in the Computer Fusion Lab, focusing on cycle design and system integration using the Revidyne Energy Device Manager, with an emphasis on energy control and operational optimization. Kelly contributes to projects that combine hardware and software solutions to enhance energy efficiency and system performance.

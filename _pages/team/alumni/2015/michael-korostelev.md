@@ -20,4 +20,4 @@ education:
  - PhD (ABD) Engineering at Temple University, 2011-2015
 ---
 
-Mr. Michael Korostelev was a PhD student (ABD) and a member of the CFL Lab. Since then, he has built and led large-scale cloud and AI systems spanning serverless infrastructure, developer platforms, and multi-agent LLM workflow orchestration across both startup and enterprise environments. He is currently a Lead AI Engineer at MFD.
+Michael Korostelev was a PhD student (ABD) and a member of the CFL Lab. Since then, he has built and led large-scale cloud and AI systems spanning serverless infrastructure, developer platforms, and multi-agent LLM workflow orchestration across both startup and enterprise environments. He is currently a Lead AI Engineer at MFD.

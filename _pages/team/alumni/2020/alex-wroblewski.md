@@ -19,4 +19,4 @@ education:
 - MBA at The University of Chicago, 2023-2026
 ---
 
-Mr. Alex Wroblewski is a Software Engineer at Belvedere Trading, LLC.
+Alex Wroblewski is a Software Engineer at Belvedere Trading, LLC.

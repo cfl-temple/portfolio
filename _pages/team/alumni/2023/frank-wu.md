@@ -23,4 +23,4 @@ thesis:
     year: 2023
 ---
 
-Mr. Frank Wu is a Product Manager at Everspring Industry Co., Ltd. He is dedicated to the European security market, with a strong focus on defining market positioning for new products and systems. His work involves analyzing competitors and market trends, planning launch strategies, and defining product specifications and solution architectures. He works closely with both business and R&D teams to ensure effective integration and successful product development.
+Frank Wu is a Product Manager at Everspring Industry Co., Ltd. He is dedicated to the European security market, with a strong focus on defining market positioning for new products and systems. His work involves analyzing competitors and market trends, planning launch strategies, and defining product specifications and solution architectures. He works closely with both business and R&D teams to ensure effective integration and successful product development.

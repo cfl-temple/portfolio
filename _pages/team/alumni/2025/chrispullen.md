@@ -24,4 +24,4 @@ thesis:
     year: 2025
 ---
 
-Mr. Chris Pullen completed his MSME at Temple University and he is currently a center director in Co-co Academy, Philadelphia.
+Chris Pullen completed his MSME at Temple University and he is currently a center director in Co-co Academy, Philadelphia.
